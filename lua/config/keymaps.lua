@@ -1,6 +1,3 @@
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
-
 vim.keymap.set("n", "<S-Up>", "<C-k>zz", { desc = "Half page up" })
 vim.keymap.set("n", "<S-Down>", "<C-j>zz", { desc = "Half page down" })
 vim.keymap.set("n", "<C-d", "<C-d>zz", { desc = "Half screen down" })
